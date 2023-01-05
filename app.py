@@ -19,7 +19,7 @@ def recommend(movie):
 
 st.title('Movie Recommender System')
 Selected_movie_name = st.selectbox(
-'How would you like to be contacted?',
+'Type your Favaurite Movie',
 movies['title'].values)
 
 if st.button('Recommend'):
